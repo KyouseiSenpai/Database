@@ -20,3 +20,19 @@ public class Main {
                 new Student.Builder().setFirstName("Miguel").setMiddleName("Cruz").setLastName("Ortiz").setAge(21).setGender("Male").setCourse("BSCS").setYearLevel(3).setSection("A").setEmail("miguel@gmail.com").build(),
                 new Student.Builder().setFirstName("Isabella").setMiddleName("Lopez").setLastName("Morales").setAge(20).setGender("Female").setCourse("BSIT").setYearLevel(2).setSection("B").setEmail("isabella@gmail.com").build()
         };
+for (Student s : students) {
+            repo.addStudent(s);
+            System.out.println("Added: " + s.getFirstName() + " " + s.getLastName());
+        }
+
+        // Display all
+        System.out.println("\n=== MASTER LIST ===\n");
+        List<Student> all = repo.getAllStudents();
+        System.out.println("ID | Name | Age | Gender | Course | Year | Section | Email");
+        System.out.println("------------------------------------------------------------------");
+        for (Student s : all) {
+            System.out.println(s);
+        }
+        System.out.println("\nTotal: " + all.size() + " students");
+    }
+}
