@@ -45,5 +45,17 @@ public class Student {
     public static class Builder {
     private Student student = new Student();
 
+    public Builder setStudentID(int id) { student.studentID = id; return this; }
+    public Builder setFirstName(String fn) { student.firstName = fn; return this; }
+    public Builder setMiddleName(String mn) { student.middleName = mn; return this; }
+    public Builder setLastName(String ln) { student.lastName = ln; return this; }
+    public Builder setAge(int age) { student.age = age; return this; }
+    public Builder setGender(String g) { student.gender = g; return this; }
+    public Builder setCourse(String c) { student.course = c; return this; }
+    public Builder setYearLevel(int yl) { student.yearLevel = yl; return this; }
+    public Builder setSection(String s) { student.section = s; return this; }
+    public Builder setEmail(String e) { student.email = e; return this; }
+
+
 
 
