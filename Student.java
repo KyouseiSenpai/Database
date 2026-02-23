@@ -34,3 +34,11 @@ public class Student {
     public void setSection(String section) { this.section = section; }
     public void setEmail(String email) { this.email = email; }
 
+    @Override
+    public String toString() {
+    return studentID + " | " + firstName + " " + middleName + " " + lastName + 
+               " | " + age + " | " + gender + " | " + course + 
+               " | " + yearLevel + " | " + section + " | " + email;
+    }
+
+
