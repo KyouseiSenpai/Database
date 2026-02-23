@@ -41,4 +41,9 @@ public class Student {
                " | " + yearLevel + " | " + section + " | " + email;
     }
 
+        
+    public static class Builder {
+    private Student student = new Student();
+
+
 
