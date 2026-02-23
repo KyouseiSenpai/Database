@@ -56,6 +56,11 @@ public class Student {
     public Builder setSection(String s) { student.section = s; return this; }
     public Builder setEmail(String e) { student.email = e; return this; }
 
+    public Student build() { return student; }
+    }
+}
+
+
 
 
 
