@@ -22,3 +22,15 @@ public class Student {
     public int getYearLevel() { return yearLevel; }
     public String getSection() { return section; }
     public String getEmail() { return email; }
+
+    public void setStudentID(int studentID) { this.studentID = studentID; }
+    public void setFirstName(String firstName) { this.firstName = firstName; }
+    public void setMiddleName(String middleName) { this.middleName = middleName; }
+    public void setLastName(String lastName) { this.lastName = lastName; }
+    public void setAge(int age) { this.age = age; }
+    public void setGender(String gender) { this.gender = gender; }
+    public void setCourse(String course) { this.course = course; }
+    public void setYearLevel(int yearLevel) { this.yearLevel = yearLevel; }
+    public void setSection(String section) { this.section = section; }
+    public void setEmail(String email) { this.email = email; }
+
