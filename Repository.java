@@ -81,9 +81,3 @@ public class Repository {
         return list;
     }
 }
-
-
-
-JOLLIBEEHATDOG HAHAHA
-    ISA PANG JOLIBEE HATDOG NA MASARAP!!!!
-
